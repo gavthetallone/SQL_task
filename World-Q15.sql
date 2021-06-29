@@ -1,0 +1,5 @@
+USE world;
+
+SELECT Name, GNP
+FROM country
+ORDER BY GNP DESC LIMIT 10;
